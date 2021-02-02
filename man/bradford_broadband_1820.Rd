@@ -3,7 +3,7 @@
 \docType{data}
 \name{bradford_broadband_1820}
 \alias{bradford_broadband_1820}
-\title{Broadband speed in Bradford}
+\title{Broadband speed data in Bradford}
 \format{
 A data frame with 95,258 rows and 24 variables:
 \describe{

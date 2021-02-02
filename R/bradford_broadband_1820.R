@@ -1,4 +1,4 @@
-#' Broadband speed in Bradford
+#' Broadband speed data in Bradford
 #'
 #' A dataset containing the Ofcom's broadband speed data for Bradford city
 #' between 2018 and 2020.
