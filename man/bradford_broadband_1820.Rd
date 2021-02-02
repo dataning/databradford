@@ -3,7 +3,7 @@
 \docType{data}
 \name{bradford_broadband_1820}
 \alias{bradford_broadband_1820}
-\title{Broadband Survey Data for Bradford City}
+\title{Broadband speed in Bradford}
 \format{
 A data frame with 95,258 rows and 24 variables:
 \describe{
@@ -39,7 +39,7 @@ A data frame with 95,258 rows and 24 variables:
 bradford_broadband_1820
 }
 \description{
-A dataset containing the Ofcom's broadband survey data for Bradford city
+A dataset containing the Ofcom's broadband speed data for Bradford city
 between 2018 and 2020.
 }
 \keyword{datasets}
