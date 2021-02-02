@@ -30,4 +30,4 @@
 #'
 #' }
 #' @source \url{https://www.ofcom.org.uk/research-and-data}
-"bradford_broadband_1820"
+"broadband"
