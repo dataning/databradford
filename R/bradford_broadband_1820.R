@@ -3,7 +3,7 @@
 #' A dataset containing the Ofcom's broadband survey data for Bradford city
 #' between 2018 and 2020.
 #'
-#' @format A data frame with 95,258 rows and 26 variables:
+#' @format A data frame with 95,258 rows and 24 variables:
 #' \describe{
 #'   \item{postcode}{postcode, Bradford postcode}
 #'   \item{pc1}{postcode's 1st part, Bradford postcode}
@@ -27,7 +27,7 @@
 #'   \item{pc_able_to_receive_decent_broadband_from_fwa}{Percentage of premises with Decent Broadband from Fixed Wireless Access provision}
 #'   \item{pc_able_to_receive_sfbb_from_fwa}{Percentage of premises with Superfast Broadband (30Mbit/s or above) from Fixed Wireless Access provision}
 #'   \item{pc_with_nga}{Percentage of premises with Next Generation Access}
-#'   ...
+#'
 #' }
 #' @source \url{https://www.ofcom.org.uk/research-and-data}
 "bradford_broadband_1820"
