@@ -1,13 +1,16 @@
 #' Prices of 50,000 round cut diamonds.
 #'
-#' A dataset containing the prices and other attributes of almost 54,000
-#' diamonds.
+#' A dataset containing the Ofcom's broadband survey data for Bradford city
+#' between 2018 and 2020.
 #'
-#' @format A data frame with 53940 rows and 10 variables:
+#' @format A data frame with 95,258 rows and 26 variables:
 #' \describe{
-#'   \item{price}{price, in US dollars}
-#'   \item{carat}{weight of the diamond, in carats}
+#'   \item{postcode}{postcode, Bradford postcode}
+#'   \item{pc1}{postcode's 1st part, Bradford postcode}
+#'   \item{pc2}{postcode's 2nd part, Bradford postcode}
+#'   \item{year}{year of survey}
+#'   \item{month}{month of survey}
 #'   ...
 #' }
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://www.ofcom.org.uk/research-and-data}
 "bradford_broadband_1820"
