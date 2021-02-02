@@ -43,6 +43,20 @@ knitr::opts_chunk$set(
 The goal of databradford is to provide a quick way to use open datasets for 
 Bradford.
 
+## Roadmap
+
+```{r echo=FALSE}
+library(knitr)
+df <- data.frame("Datasets" = c("School admission", "Broadband speed", "Property transaction",
+                                "Crime incidents", "Local business", "Air quality"),
+                 "Extracted" = c("Yes", "Yes", "Yes", "Yes", "Yes", "Yes"), 
+                 "Cleaned" = c("Yes", "Yes", "No", "Yes", "No", "No"), 
+                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
+                 "Year_starting" = c(2014, 2018, 2010, 2010, 2010, 2015), 
+                 "Year_ending" = c(2020, 2020, 2020, 2020, 2020, 2020))
+kable(df)
+```
+
 ## Installation
 
 You can install the development version of databradford from [GitHub](https://github.com/) with:
@@ -58,4 +72,5 @@ devtools::install_github("dataning/databradford")
 library(databradford)
 data("bradford_broadband_1820")
 ```
+
 

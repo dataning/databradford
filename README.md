@@ -32,6 +32,17 @@
 The goal of databradford is to provide a quick way to use open datasets
 for Bradford.
 
+## Roadmap
+
+| Datasets             | Extracted | Cleaned | Geocoded | Year\_starting | Year\_ending |
+|:---------------------|:----------|:--------|:---------|---------------:|-------------:|
+| School admission     | Yes       | Yes     | Yes      |           2014 |         2020 |
+| Broadband speed      | Yes       | Yes     | Yes      |           2018 |         2020 |
+| Property transaction | Yes       | No      | Yes      |           2010 |         2020 |
+| Crime incidents      | Yes       | Yes     | Yes      |           2010 |         2020 |
+| Local business       | Yes       | No      | Yes      |           2010 |         2020 |
+| Air quality          | Yes       | No      | No       |           2015 |         2020 |
+
 ## Installation
 
 You can install the development version of databradford from
