@@ -38,9 +38,9 @@ for Bradford.
 |:---------------------------|:---------------|:-------------|:----------|:--------|:---------|:-----------|
 | Secondary school admission | 2014           | 2020         | Yes       | Yes     | Yes      | Yes        |
 | Broadband speed            | 2018           | 2020         | Yes       | Yes     | Yes      | Yes        |
-| Property transaction       | 2010           | 2020         | Yes       | No      | Yes      | Pending    |
-| Crime incidents            | 2010           | 2020         | Yes       | Yes     | Yes      | Yes        |
-| Local business             | 2010           | 2020         | Yes       | No      | Yes      | Pending    |
+| Property transaction       | 2010           | 2020         | Yes       | No      | Yes      | Request    |
+| Crime incidents            | 2010           | 2020         | Yes       | Yes     | Yes      | Request    |
+| Local business             | 2010           | 2020         | Yes       | No      | Yes      | Request    |
 | Air quality                | 2015           | 2020         | Yes       | No      | No       | No         |
 
 ## How to use the package?

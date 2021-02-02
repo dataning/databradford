@@ -55,7 +55,7 @@ df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed",
                  "Extracted" = c("Yes", "Yes", "Yes", "Yes", "Yes", "Yes"), 
                  "Cleaned" = c("Yes", "Yes", "No", "Yes", "No", "No"), 
                  "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
-                 "Accessible" = c("Yes", "Yes", "Pending", "Yes", "Pending", "No")
+                 "Accessible" = c("Yes", "Yes", "Request", "Request", "Request", "No")
 )
 kable(df)
 ```
