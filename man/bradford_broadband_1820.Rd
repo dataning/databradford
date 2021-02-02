@@ -12,6 +12,23 @@ A data frame with 95,258 rows and 26 variables:
 \item{pc2}{postcode's 2nd part, Bradford postcode}
 \item{year}{year of survey}
 \item{month}{month of survey}
+\item{pc_with_30_300mbit_s_dspeed}{Percentage of premises that have access to services between 30Mbit/s and 300Mbit/s}
+\item{pc_with_300mbit_s_dspeed}{Percentage of premises that have access to services above 300Mbit/s}
+\item{pc_with_0_2mbit_s_dspeed}{Percentage of premises that have access to services between 0Mbit/s and 2Mbit/s}
+\item{pc_with_2_5mbit_s_dspeed}{Percentage of premises that have access to services between 2Mbit/s and 5Mbit/s}
+\item{pc_with_5_10mbit_s_dspeed}{Percentage of premises that have access to services between 5Mbit/s and 10Mbit/s}
+\item{pc_with_10_30mbit_s_dspeed}{Percentage of premises that have access to services between 10Mbit/s and 30Mbit/s}
+\item{sfbb_availability_percent_premises}{Percentage of premises that have Superfast Broadband (30Mbit/s to less than 300Mbit/s) coverage}
+\item{ufbb_availability_percent_premises}{Percentage of premises that have Ultrafast Broadband (300Mbit/s or greater) coverage}
+\item{full_fibre_availability_percent_premises}{Percentage of premises that have coverage from a full fibre service}
+\item{pc_unable_to_receive_2mbit_s}{Percentage of premises that do not have access to services above 2Mbit/s}
+\item{pc_unable_to_receive_5mbit_s}{Percentage of premises that do not have access to services above 5Mbit/s}
+\item{pc_unable_to_receive_10mbit_s}{Percentage of premises that do not have access to services above 10Mbit/s}
+\item{pc_unable_to_receive_30mbit_s}{Percentage of premises that do not have access to services above 30Mbit/s}
+\item{pc_below_the_uso}{Percentage of premises that do not have access to download speeds at or above 10Mbit/s and upload speeds at or above 1Mbit/s including non-matched records and zero predicted speeds}
+\item{pc_able_to_receive_decent_broadband_from_fwa}{Percentage of premises with Decent Broadband from Fixed Wireless Access provision}
+\item{pc_able_to_receive_sfbb_from_fwa}{Percentage of premises with Superfast Broadband (30Mbit/s or above) from Fixed Wireless Access provision}
+\item{pc_with_nga}{Percentage of premises with Next Generation Access}
 ...
 }
 }
