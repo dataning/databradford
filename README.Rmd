@@ -47,19 +47,22 @@ Bradford.
 
 ```{r echo=FALSE}
 library(knitr)
-df <- data.frame("Datasets" = c("School admission", "Broadband speed", "Property transaction",
+df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
+                                "Property transaction",
                                 "Crime incidents", "Local business", "Air quality"),
+                 "Year_starting" = c("2014", "2018", "2010", "2010", "2010", "2015"), 
+                 "Year_ending" = c("2020", "2020", "2020", "2020", "2020", "2020"),
                  "Extracted" = c("Yes", "Yes", "Yes", "Yes", "Yes", "Yes"), 
                  "Cleaned" = c("Yes", "Yes", "No", "Yes", "No", "No"), 
                  "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
-                 "Year_starting" = c(2014, 2018, 2010, 2010, 2010, 2015), 
-                 "Year_ending" = c(2020, 2020, 2020, 2020, 2020, 2020))
+                 "Accessible" = c("Yes", "Yes", "Pending", "Yes", "Pending", "No")
+)
 kable(df)
 ```
 
-## Installation
+## How to use the package?
 
-You can install the development version of databradford from [GitHub](https://github.com/) with:
+You can install the development version of databradford in R from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -70,7 +73,7 @@ devtools::install_github("dataning/databradford")
 
 ```{r Bradford broadband data}
 library(databradford)
-data("bradford_broadband_1820")
+data("broadband")
 ```
 
 

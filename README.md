@@ -34,18 +34,18 @@ for Bradford.
 
 ## Roadmap
 
-| Datasets             | Extracted | Cleaned | Geocoded | Year\_starting | Year\_ending |
-|:---------------------|:----------|:--------|:---------|---------------:|-------------:|
-| School admission     | Yes       | Yes     | Yes      |           2014 |         2020 |
-| Broadband speed      | Yes       | Yes     | Yes      |           2018 |         2020 |
-| Property transaction | Yes       | No      | Yes      |           2010 |         2020 |
-| Crime incidents      | Yes       | Yes     | Yes      |           2010 |         2020 |
-| Local business       | Yes       | No      | Yes      |           2010 |         2020 |
-| Air quality          | Yes       | No      | No       |           2015 |         2020 |
+| Datasets                   | Year\_starting | Year\_ending | Extracted | Cleaned | Geocoded | Accessible |
+|:---------------------------|:---------------|:-------------|:----------|:--------|:---------|:-----------|
+| Secondary school admission | 2014           | 2020         | Yes       | Yes     | Yes      | Yes        |
+| Broadband speed            | 2018           | 2020         | Yes       | Yes     | Yes      | Yes        |
+| Property transaction       | 2010           | 2020         | Yes       | No      | Yes      | Pending    |
+| Crime incidents            | 2010           | 2020         | Yes       | Yes     | Yes      | Yes        |
+| Local business             | 2010           | 2020         | Yes       | No      | Yes      | Pending    |
+| Air quality                | 2015           | 2020         | Yes       | No      | No       | No         |
 
-## Installation
+## How to use the package?
 
-You can install the development version of databradford from
+You can install the development version of databradford in R from
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -57,5 +57,5 @@ devtools::install_github("dataning/databradford")
 
 ``` r
 library(databradford)
-data("bradford_broadband_1820")
+data("broadband")
 ```
