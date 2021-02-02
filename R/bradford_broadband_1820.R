@@ -1,6 +1,6 @@
-#' Broadband Survey Data for Bradford City
+#' Broadband speed in Bradford
 #'
-#' A dataset containing the Ofcom's broadband survey data for Bradford city
+#' A dataset containing the Ofcom's broadband speed data for Bradford city
 #' between 2018 and 2020.
 #'
 #' @format A data frame with 95,258 rows and 24 variables:
