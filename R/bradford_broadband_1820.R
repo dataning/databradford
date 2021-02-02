@@ -1,4 +1,4 @@
-#' Prices of 50,000 round cut diamonds.
+#' Broadband Survey Data for Bradford City
 #'
 #' A dataset containing the Ofcom's broadband survey data for Bradford city
 #' between 2018 and 2020.
