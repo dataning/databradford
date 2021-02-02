@@ -19,11 +19,9 @@ You can install the development version of databradford from
 devtools::install_github("dataning/databradford")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
+## Bradford broadband data
 
 ``` r
 library(databradford)
-## basic example code
+data("bradford_broadband_1820")
 ```

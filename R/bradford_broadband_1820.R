@@ -10,6 +10,12 @@
 #'   \item{pc2}{postcode's 2nd part, Bradford postcode}
 #'   \item{year}{year of survey}
 #'   \item{month}{month of survey}
+#'   \item{postcode}{postcode, Bradford postcode}
+#'   \item{postcode}{postcode, Bradford postcode}
+#'   \item{postcode}{postcode, Bradford postcode}
+#'   \item{postcode}{postcode, Bradford postcode}
+#'   \item{postcode}{postcode, Bradford postcode}
+#'   \item{postcode}{postcode, Bradford postcode}
 #'   ...
 #' }
 #' @source \url{https://www.ofcom.org.uk/research-and-data}
