@@ -42,7 +42,7 @@ You can install the development version of databradford from
 devtools::install_github("dataning/databradford")
 ```
 
-## Bradford broadband data
+## Broadband speed data
 
 ``` r
 library(databradford)
