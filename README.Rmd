@@ -53,8 +53,8 @@ df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed",
                  "Starting" = c("2014", "2018", "2010", "2010", "2010", "2015"), 
                  "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020"),
                  "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
-                 "Raw data contained" = c("100%", "100%", "20%", "20%", "20%", "100%"), 
-                 "Raw data size" = c("small", "small", "big", "big", "big", "small")
+                 "Raw_data_contained" = c("100%", "100%", "20%", "20%", "20%", "100%"), 
+                 "Raw_data_size" = c("small", "small", "large", "large", "large", "small")
 )
 kable(df)
 ```
