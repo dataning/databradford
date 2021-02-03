@@ -59,7 +59,7 @@ df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed",
 kable(df)
 ```
 
-## How to use the package?
+## Use the package
 
 You can install the development version of databradford in R from [GitHub](https://github.com/) with:
 
@@ -68,7 +68,7 @@ You can install the development version of databradford in R from [GitHub](https
 devtools::install_github("dataning/databradford")
 ```
 
-## How to get the dataset?
+## Use the dataset
 
 ```{r }
 library(databradford)

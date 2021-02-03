@@ -43,7 +43,7 @@ for Bradford.
 | Local business             | 2010     | 2020   | Yes      | 20%                  | large           |
 | Air quality                | 2015     | 2020   | No       | 100%                 | small           |
 
-## How to use the package?
+## Use the package
 
 You can install the development version of databradford in R from
 [GitHub](https://github.com/) with:
@@ -53,7 +53,7 @@ You can install the development version of databradford in R from
 devtools::install_github("dataning/databradford")
 ```
 
-## How to get the dataset?
+## Use the dataset
 
 ``` r
 library(databradford)
