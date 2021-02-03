@@ -29,8 +29,8 @@
 
 <!-- badges: end -->
 
-The goal of databradford is to provide a quick way to use open datasets
-for Bradford.
+The goal of databradford is to provide a quick way to explore open
+datasets for Bradford city.
 
 ## Roadmap
 
@@ -43,9 +43,10 @@ for Bradford.
 | Local business\*           | 2010     | 2020   | Yes      | 20%                  | large           |
 | Air quality                | 2015     | 2020   | No       | 100%                 | small           |
 
-`*` Due to the size of raw data, the package can only contain a subset
-of the raw data If you wish to use the full raw data in some areas,
-please contact the package developer for further data request.
+`*` Due to the size of the raw data, the package can only contain a
+subset of the data in this category. If you wish to use the full scale
+of the raw data, please contact the package developer for further data
+request.
 
 ## Use the package
 
