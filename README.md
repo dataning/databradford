@@ -34,14 +34,14 @@ datasets for Bradford city.
 
 ## Roadmap
 
-| Datasets                   | Starting | Ending | Geocoded | Raw\_data\_contained | Raw\_data\_size |
-|:---------------------------|:---------|:-------|:---------|:---------------------|:----------------|
-| Secondary school admission | 2014     | 2020   | Yes      | 100%                 | small           |
-| Broadband speed            | 2018     | 2020   | Yes      | 100%                 | small           |
-| Property transaction\*     | 2010     | 2020   | Yes      | 20%                  | large           |
-| Crime incidents\*          | 2011     | 2020   | Yes      | 6.9%                 | large           |
-| Local business\*           | 2010     | 2020   | Yes      | 20%                  | large           |
-| Air quality                | 2015     | 2020   | No       | 100%                 | small           |
+| Datasets                   | Starting | Ending | Geocoded | Raw\_data\_contained | Released |
+|:---------------------------|:---------|:-------|:---------|:---------------------|:---------|
+| Secondary school admission | 2014     | 2020   | Yes      | 100%                 | No       |
+| Broadband speed            | 2018     | 2020   | Yes      | 100%                 | Yes      |
+| Property transaction       | 1995     | 2020   | Yes      | 100%                 | No       |
+| Crime incidents\*          | 2011     | 2020   | Yes      | 6.9%                 | Yes      |
+| Local business\*           | 2010     | 2020   | Yes      | 20%                  | No       |
+| Air quality                | 2015     | 2020   | No       | 100%                 | No       |
 
 `*` Due to the size of the raw data, the package can only contain a
 subset of the data in this category. If you wish to use the full scale

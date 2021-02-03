@@ -47,18 +47,19 @@ The goal of databradford is to provide a quick way to explore open datasets for 
 ```{r echo=FALSE}
 library(knitr)
 df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
-                                "Property transaction*",
+                                "Property transaction",
                                 "Crime incidents*", "Local business*", "Air quality"),
-                 "Starting" = c("2014", "2018", "2010", "2011", "2010", "2015"), 
+                 "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015"), 
                  "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020"),
                  "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
-                 "Raw_data_contained" = c("100%", "100%", "20%", "6.9%", "20%", "100%"), 
-                 "Raw_data_size" = c("small", "small", "large", "large", "large", "small")
+                 "Raw_data_contained" = c("100%", "100%", "100%", "6.9%", "20%", "100%"), 
+                 "Released" = c("No", "Yes", "No", "Yes", "No", "No")
 )
 kable(df)
 ```
 
-`*` Due to the size of the raw data, the package can only contain a subset of the data in this category. If you wish to use the full scale of the raw data, please contact the package developer for further data request.  
+`*` Due to the size of the raw data, the package can only contain a subset of the data in this category. If you wish to use the full scale of the raw data, please contact the package developer for further data request.
+  
 
 ## Use the package
 

@@ -3,7 +3,7 @@
 \docType{data}
 \name{crime}
 \alias{crime}
-\title{Street crime incidents in Bradford}
+\title{Crime incidents in Bradford}
 \format{
 A data frame with 30,000 rows and 10 variables:
 \describe{
@@ -27,7 +27,7 @@ A data frame with 30,000 rows and 10 variables:
 crime
 }
 \description{
-A dataset containing 12.5\% of street crime data for Bradford city
-between 2018 and 2020.
+A dataset containing 12.5\% of crime incidents data for Bradford city
+between 2011 and 2020.
 }
 \keyword{datasets}

@@ -1,7 +1,7 @@
-#' Street crime incidents in Bradford
+#' Crime incidents in Bradford
 #'
-#' A dataset containing 12.5% of street crime data for Bradford city
-#' between 2018 and 2020.
+#' A dataset containing 12.5% of crime incidents data for Bradford city
+#' between 2011 and 2020.
 #'
 #' @format A data frame with 30,000 rows and 10 variables:
 #' \describe{
