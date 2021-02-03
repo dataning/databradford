@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • databradford</title>
+<title>Street crime incidents in Bradford — crime • databradford</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,7 +46,9 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="Street crime incidents in Bradford — crime" />
+<meta property="og:description" content="A dataset containing 12.5% of street crime data for Bradford city
+between 2018 and 2020." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -66,7 +68,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -113,48 +115,43 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>Street crime incidents in Bradford</h1>
+    <small class="dont-index">Source: <a href='https://github.com/dataning/databradford/blob/master/R/crime.R'><code>R/crime.R</code></a></small>
+    <div class="hidden name"><code>crime.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>A dataset containing 12.5% of street crime data for Bradford city
+between 2018 and 2020.</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='va'>crime</span></pre>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-all-functions" class="hasAnchor"><a href="#section-all-functions" class="anchor"></a>All functions</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="broadband.html">broadband</a></code> </p>
-        </td>
-        <td><p>Broadband speed data in Bradford</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="crime.html">crime</a></code> </p>
-        </td>
-        <td><p>Street crime incidents in Bradford</p></td>
-      </tr>
-    </tbody>
-    </table>
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 30,000 rows and 10 variables:</p><dl>
+<dt>year</dt><dd><p>Year of the incident</p></dd>
+<dt>month</dt><dd><p>Month of the incident</p></dd>
+<dt>reported_by</dt><dd><p>The force that provided the data about the crime.</p></dd>
+<dt>falls_within</dt><dd><p>At present, also the force that provided the data about the crime. This is currently being looked into and is likely to change in the near future.</p></dd>
+<dt>longitude</dt><dd><p>The anonymised coordinates of the crime</p></dd>
+<dt>latitude</dt><dd><p>The anonymised coordinates of the crime</p></dd>
+<dt>location</dt><dd><p>Percentage of premises that have access to services above 300Mbit/s</p></dd>
+<dt>lsoa_code</dt><dd><p>The anonymised Lower Layer Super Output Area</p></dd>
+<dt>crime_type</dt><dd><p>Crime types</p></dd>
+<dt>last_outcome_category</dt><dd><p>Last outcome reported</p></dd>
+
+
+</dl>
+
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p><a href='https://data.police.uk/about/#columns'>https://data.police.uk/about/#columns</a></p>
+
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
