@@ -48,8 +48,8 @@ Bradford.
 ```{r echo=FALSE}
 library(knitr)
 df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
-                                "Property transaction",
-                                "Crime incidents", "Local business", "Air quality"),
+                                "Property transaction*",
+                                "Crime incidents*", "Local business*", "Air quality"),
                  "Starting" = c("2014", "2018", "2010", "2018", "2010", "2015"), 
                  "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020"),
                  "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
@@ -58,6 +58,8 @@ df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed",
 )
 kable(df)
 ```
+
+* - Due to the raw data size, the package can only contain a subset of the raw data. If you wish to use the raw data, please contact the package developer for the full data.  
 
 ## Use the package
 
