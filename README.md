@@ -34,14 +34,14 @@ for Bradford.
 
 ## Roadmap
 
-| Datasets                   | Year\_starting | Year\_ending | Extracted | Cleaned | Geocoded | Accessible |
-|:---------------------------|:---------------|:-------------|:----------|:--------|:---------|:-----------|
-| Secondary school admission | 2014           | 2020         | Yes       | Yes     | Yes      | Yes        |
-| Broadband speed            | 2018           | 2020         | Yes       | Yes     | Yes      | Yes        |
-| Property transaction       | 2010           | 2020         | Yes       | No      | Yes      | Request    |
-| Crime incidents            | 2010           | 2020         | Yes       | Yes     | Yes      | Request    |
-| Local business             | 2010           | 2020         | Yes       | No      | Yes      | Request    |
-| Air quality                | 2015           | 2020         | Yes       | No      | No       | No         |
+| Datasets                   | Starting | Ending | Geocoded | Raw.data.contained | Raw.data.size |
+|:---------------------------|:---------|:-------|:---------|:-------------------|:--------------|
+| Secondary school admission | 2014     | 2020   | Yes      | 100%               | small         |
+| Broadband speed            | 2018     | 2020   | Yes      | 100%               | small         |
+| Property transaction       | 2010     | 2020   | Yes      | 20%                | big           |
+| Street crime               | 2010     | 2020   | Yes      | 20%                | big           |
+| Local business             | 2010     | 2020   | Yes      | 20%                | big           |
+| Air quality                | 2015     | 2020   | No       | 100%               | small         |
 
 ## How to use the package?
 

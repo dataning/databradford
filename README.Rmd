@@ -49,13 +49,12 @@ Bradford.
 library(knitr)
 df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
                                 "Property transaction",
-                                "Crime incidents", "Local business", "Air quality"),
-                 "Year_starting" = c("2014", "2018", "2010", "2010", "2010", "2015"), 
-                 "Year_ending" = c("2020", "2020", "2020", "2020", "2020", "2020"),
-                 "Extracted" = c("Yes", "Yes", "Yes", "Yes", "Yes", "Yes"), 
-                 "Cleaned" = c("Yes", "Yes", "No", "Yes", "No", "No"), 
+                                "Street crime", "Local business", "Air quality"),
+                 "Starting" = c("2014", "2018", "2010", "2010", "2010", "2015"), 
+                 "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020"),
                  "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
-                 "Accessible" = c("Yes", "Yes", "Request", "Request", "Request", "No")
+                 "Raw data contained" = c("100%", "100%", "20%", "20%", "20%", "100%"), 
+                 "Raw data size" = c("small", "small", "big", "big", "big", "small")
 )
 kable(df)
 ```
