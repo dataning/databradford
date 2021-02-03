@@ -1,6 +1,6 @@
 #' Street crime incidents in Bradford
 #'
-#' A dataset containing 20% of street crime data for Bradford city
+#' A dataset containing 12.5% of street crime data for Bradford city
 #' between 2018 and 2020.
 #'
 #' @format A data frame with 30,000 rows and 10 variables:
@@ -18,4 +18,4 @@
 #'
 #' }
 #' @source \url{https://data.police.uk/about/#columns}
-"street_crime"
+"crime"
