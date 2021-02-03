@@ -49,7 +49,7 @@ Bradford.
 library(knitr)
 df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
                                 "Property transaction",
-                                "Street crime", "Local business", "Air quality"),
+                                "Crime incidents", "Local business", "Air quality"),
                  "Starting" = c("2014", "2018", "2010", "2018", "2010", "2015"), 
                  "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020"),
                  "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
@@ -68,17 +68,15 @@ You can install the development version of databradford in R from [GitHub](https
 devtools::install_github("dataning/databradford")
 ```
 
-## Broadband speed
+## How to get the dataset?
 
-```{r Bradford broadband data}
+```{r }
 library(databradford)
+
+# Broadband speed
 data("broadband")
-```
 
-## Crime incidents
-
-```{r Crime data}
-library(databradford)
+# Crime incident
 data("crime")
 ```
 

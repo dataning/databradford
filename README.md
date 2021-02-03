@@ -39,7 +39,7 @@ for Bradford.
 | Secondary school admission | 2014     | 2020   | Yes      | 100%                 | small           |
 | Broadband speed            | 2018     | 2020   | Yes      | 100%                 | small           |
 | Property transaction       | 2010     | 2020   | Yes      | 20%                  | large           |
-| Street crime               | 2018     | 2020   | Yes      | 12.5%                | large           |
+| Crime incidents            | 2018     | 2020   | Yes      | 12.5%                | large           |
 | Local business             | 2010     | 2020   | Yes      | 20%                  | large           |
 | Air quality                | 2015     | 2020   | No       | 100%                 | small           |
 
@@ -53,16 +53,14 @@ You can install the development version of databradford in R from
 devtools::install_github("dataning/databradford")
 ```
 
-## Broadband speed
+## How to get the dataset?
 
 ``` r
 library(databradford)
+
+# Broadband speed
 data("broadband")
-```
 
-## Crime incidents
-
-``` r
-library(databradford)
+# Crime incident
 data("crime")
 ```
