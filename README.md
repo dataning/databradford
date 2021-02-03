@@ -39,13 +39,13 @@ for Bradford.
 | Secondary school admission | 2014     | 2020   | Yes      | 100%                 | small           |
 | Broadband speed            | 2018     | 2020   | Yes      | 100%                 | small           |
 | Property transaction\*     | 2010     | 2020   | Yes      | 20%                  | large           |
-| Crime incidents\*          | 2011     | 2020   | Yes      | 12.5%                | large           |
+| Crime incidents\*          | 2011     | 2020   | Yes      | 6.9%                 | large           |
 | Local business\*           | 2010     | 2020   | Yes      | 20%                  | large           |
 | Air quality                | 2015     | 2020   | No       | 100%                 | small           |
 
--   -   Due to the raw data size, the package can only contain a subset
-        of the raw data. If you wish to use the raw data, please contact
-        the package developer for the full data.
+`*` Due to the size of raw data, the package can only contain a subset
+of the raw data If you wish to use the full raw data in some areas,
+please contact the package developer for further data request.
 
 ## Use the package
 

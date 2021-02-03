@@ -53,13 +53,13 @@ df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed",
                  "Starting" = c("2014", "2018", "2010", "2011", "2010", "2015"), 
                  "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020"),
                  "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
-                 "Raw_data_contained" = c("100%", "100%", "20%", "12.5%", "20%", "100%"), 
+                 "Raw_data_contained" = c("100%", "100%", "20%", "6.9%", "20%", "100%"), 
                  "Raw_data_size" = c("small", "small", "large", "large", "large", "small")
 )
 kable(df)
 ```
 
-* - Due to the raw data size, the package can only contain a subset of the raw data. If you wish to use the raw data, please contact the package developer for the full data.  
+`*` Due to the size of raw data, the package can only contain a subset of the raw data If you wish to use the full raw data in some areas, please contact the package developer for further data request.  
 
 ## Use the package
 
