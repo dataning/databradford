@@ -39,7 +39,7 @@ for Bradford.
 | Secondary school admission | 2014     | 2020   | Yes      | 100%                 | small           |
 | Broadband speed            | 2018     | 2020   | Yes      | 100%                 | small           |
 | Property transaction       | 2010     | 2020   | Yes      | 20%                  | large           |
-| Street crime               | 2010     | 2020   | Yes      | 20%                  | large           |
+| Street crime               | 2018     | 2020   | Yes      | 20%                  | large           |
 | Local business             | 2010     | 2020   | Yes      | 20%                  | large           |
 | Air quality                | 2015     | 2020   | No       | 100%                 | small           |
 
@@ -58,4 +58,11 @@ devtools::install_github("dataning/databradford")
 ``` r
 library(databradford)
 data("broadband")
+```
+
+## Crime data
+
+``` r
+library(databradford)
+data("street_crime")
 ```

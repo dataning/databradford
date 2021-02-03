@@ -50,7 +50,7 @@ library(knitr)
 df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
                                 "Property transaction",
                                 "Street crime", "Local business", "Air quality"),
-                 "Starting" = c("2014", "2018", "2010", "2010", "2010", "2015"), 
+                 "Starting" = c("2014", "2018", "2010", "2018", "2010", "2015"), 
                  "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020"),
                  "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
                  "Raw_data_contained" = c("100%", "100%", "20%", "20%", "20%", "100%"), 
@@ -75,4 +75,10 @@ library(databradford)
 data("broadband")
 ```
 
+## Crime data
+
+```{r Crime data}
+library(databradford)
+data("street_crime")
+```
 

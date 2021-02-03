@@ -1,0 +1,21 @@
+#' Street crime incidents in Bradford
+#'
+#' A dataset containing 20% of street crime data for Bradford city
+#' between 2018 and 2020.
+#'
+#' @format A data frame with 30,000 rows and 10 variables:
+#' \describe{
+#'   \item{year}{Year of the incident}
+#'   \item{month}{Month of the incident}
+#'   \item{reported_by}{The force that provided the data about the crime.}
+#'   \item{falls_within}{At present, also the force that provided the data about the crime. This is currently being looked into and is likely to change in the near future.}
+#'   \item{longitude}{The anonymised coordinates of the crime}
+#'   \item{latitude}{The anonymised coordinates of the crime}
+#'   \item{location}{Percentage of premises that have access to services above 300Mbit/s}
+#'   \item{lsoa_code}{The anonymised Lower Layer Super Output Area}
+#'   \item{crime_type}{Crime types}
+#'   \item{last_outcome_category}{Last outcome reported}
+#'
+#' }
+#' @source \url{https://data.police.uk/about/#columns}
+"street_crime"
