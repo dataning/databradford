@@ -72,7 +72,7 @@ devtools::install_github("dataning/databradford")
 
 ## Use the dataset
 
-```{r }
+```{r message=FALSE}
 library(databradford)
 
 # Broadband speed
