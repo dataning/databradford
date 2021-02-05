@@ -80,5 +80,10 @@ data("broadband")
 
 # Crime incident
 data("crime")
+
+# Ward level shape file
+data("wardmap")
+library(sf)
+wardmap$geometry <- st_geometry(wardmap$geometry)
 ```
 

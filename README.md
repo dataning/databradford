@@ -68,4 +68,10 @@ data("broadband")
 
 # Crime incident
 data("crime")
+
+# Ward level shape file
+data("wardmap")
+library(sf)
+#> Linking to GEOS 3.9.0, GDAL 3.2.1, PROJ 7.2.1
+wardmap$geometry <- st_geometry(wardmap$geometry)
 ```
