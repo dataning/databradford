@@ -168,7 +168,8 @@
 <span class="co"># Crime incident</span>
 <span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"crime"</span><span class="op">)</span>
 
-<span class="co"># Ward level shape file</span>
+<span class="co"># Ward level map - you need to convert geometry column back to multipolygon </span>
+
 <span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"wardmap"</span><span class="op">)</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">sf</span><span class="op">)</span>
 <span class="va">wardmap</span><span class="op">$</span><span class="va">geometry</span> <span class="op">&lt;-</span> <span class="fu">st_geometry</span><span class="op">(</span><span class="va">wardmap</span><span class="op">$</span><span class="va">geometry</span><span class="op">)</span></code></pre></div>
