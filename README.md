@@ -42,6 +42,7 @@ datasets for Bradford city.
 | Crime incidents\*          | 2011     | 2020   | Yes      | 6.9%                 | Yes      |
 | Local business\*           | 2010     | 2020   | Yes      | 20%                  | No       |
 | Air quality                | 2015     | 2020   | No       | 100%                 | No       |
+| Ward map                   | 2020     | 2020   | Yes      | 100%                 | Yes      |
 
 `*` Due to the size of the raw data, the package can only contain a
 subset of the data in this category. If you wish to use the full scale
@@ -70,7 +71,6 @@ data("broadband")
 data("crime")
 
 # Ward level map - you need to convert geometry column back to multipolygon 
-
 data("wardmap")
 library(sf)
 wardmap$geometry <- st_geometry(wardmap$geometry)

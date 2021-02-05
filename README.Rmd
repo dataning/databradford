@@ -48,12 +48,12 @@ The goal of databradford is to provide a quick way to explore open datasets for 
 library(knitr)
 df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
                                 "Property transaction",
-                                "Crime incidents*", "Local business*", "Air quality"),
-                 "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015"), 
-                 "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020"),
-                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
-                 "Raw_data_contained" = c("100%", "100%", "100%", "6.9%", "20%", "100%"), 
-                 "Released" = c("No", "Yes", "No", "Yes", "No", "No")
+                                "Crime incidents*", "Local business*", "Air quality", "Ward map"),
+                 "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015", "2020"), 
+                 "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020", "2020"),
+                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No", "Yes"),
+                 "Raw_data_contained" = c("100%", "100%", "100%", "6.9%", "20%", "100%", "100%"), 
+                 "Released" = c("No", "Yes", "No", "Yes", "No", "No", "Yes")
 )
 kable(df)
 ```
@@ -82,7 +82,6 @@ data("broadband")
 data("crime")
 
 # Ward level map - you need to convert geometry column back to multipolygon 
-
 data("wardmap")
 library(sf)
 wardmap$geometry <- st_geometry(wardmap$geometry)
