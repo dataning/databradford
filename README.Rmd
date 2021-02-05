@@ -21,7 +21,7 @@ knitr::opts_chunk$set(
 <tbody>
 <tr class="odd">
 <td align="left">
-<a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://img.shields.io/badge/licence-GPL--3-blue.svg" alt="Licence"></a>
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="Licence"></a>
 </td>
 <td align="left">
 <a href="https://codecov.io/gh/dataning/databradford">
