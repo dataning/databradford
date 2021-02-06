@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# databradford <img src="man/figures/logo.png" align="right" />
+# databradford <img src="man/figures/logo.png" align="right" width = 150/>
 
 <!-- badges: start -->
 </tr>

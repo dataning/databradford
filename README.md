@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# databradford <img src="man/figures/logo.png" align="right" />
+# databradford <img src="man/figures/logo.png" align="right" width = 150/>
 
 <!-- badges: start -->
 </tr>
