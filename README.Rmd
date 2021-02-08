@@ -70,7 +70,7 @@ You can install the development version of databradford in R from [GitHub](https
 devtools::install_github("dataning/databradford")
 ```
 
-## Use the dataset
+## Use open dataset in Bradford
 
 ```{r message=FALSE, eval=FALSE}
 library(databradford)
@@ -81,6 +81,12 @@ data("broadband")
 # Crime incident
 data("crime")
 
+
+```
+
+## Use spatial elements for Bradford
+
+```{r eval=FALSE}
 # MSOA map
 msoa_map <- msoa()
 

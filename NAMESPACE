@@ -2,3 +2,4 @@
 
 export(lsoa)
 export(msoa)
+export(oa)
