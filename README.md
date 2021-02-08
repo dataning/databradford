@@ -71,13 +71,13 @@ data("broadband")
 data("crime")
 
 # MSOA map
-msoa_map <- msoa_map()
+msoa_map <- msoa()
 
 # LSOA map
-lsoa_map <- lsoa_map()
+lsoa_map <- lsoa()
 
 # OA map
-oa_map <- oa_map()
+oa_map <- oa()
 ```
 
 ## Citation
