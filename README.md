@@ -74,14 +74,17 @@ data("crime")
 ## Use spatial elements for Bradford
 
 ``` r
-# MSOA map
+# MSOA multipolygon
 msoa_map <- msoa()
 
-# LSOA map
+# LSOA multipolygon
 lsoa_map <- lsoa()
 
-# OA map
+# OA multipolygon
 oa_map <- oa()
+
+# postcode pointpolygon
+postcode_map <- pc()
 ```
 
 ## Citation
