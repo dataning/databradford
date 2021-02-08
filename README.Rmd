@@ -48,12 +48,17 @@ The goal of databradford is to provide a quick way to explore open datasets for 
 library(knitr)
 df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
                                 "Property transaction",
-                                "Crime incidents*", "Local business*", "Air quality", "Ward map"),
-                 "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015", "2020"), 
-                 "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020", "2020"),
-                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No", "Yes"),
-                 "Raw_data_contained" = c("100%", "100%", "100%", "6.9%", "20%", "100%", "100%"), 
-                 "Released" = c("No", "Yes", "No", "Yes", "No", "No", "Yes")
+                                "Crime incidents*", "Local business*", "Air quality", 
+                                "LSOA map", "MSOA map", "OA map", "Postcode map"),
+                 "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015", "2011",
+                                "2011", "2011", "2011"), 
+                 "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020", "2020",
+                              "2020", "2020", "2020"),
+                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No", "Yes", 
+                               "Yes", "Yes", "Yes"),
+                 "Raw_data_contained" = c("100%", "100%", "100%", "6.9%", "20%", "100%", "100%",
+                                          "100%", "100%", "100%"), 
+                 "Released" = c("No", "Yes", "No", "Yes", "No", "No", "Yes", "Yes", "Yes", "Yes")
 )
 kable(df)
 ```
