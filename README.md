@@ -70,10 +70,14 @@ data("broadband")
 # Crime incident
 data("crime")
 
-# Ward level map - you need to convert geometry column back to multipolygon 
-data("wardmap")
-library(sf)
-wardmap$geometry <- st_geometry(wardmap$geometry)
+# MSOA map
+msoa_map <- msoa_map()
+
+# LSOA map
+lsoa_map <- lsoa_map()
+
+# OA map
+oa_map <- oa_map()
 ```
 
 ## Citation
