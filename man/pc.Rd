@@ -2,18 +2,18 @@
 % Please edit documentation in R/pc.R
 \name{pc}
 \alias{pc}
-\title{Load Postcode data}
+\title{Load Postcode data - multipolygon}
 \usage{
 pc(var1)
 }
 \arguments{
-\item{var1}{character}
+\item{var1}{empty}
 }
 \value{
 character
 }
 \description{
-Load Postcode data
+Load Postcode data - multipolygon
 }
 \examples{
 pc()

@@ -86,8 +86,11 @@ lsoa_map <- lsoa()
 # OA multipolygon
 oa_map <- oa()
 
-# postcode pointpolygon
+# postcode multipolygon
 postcode_map <- pc()
+
+# postcode point polygon
+postcode_map <- pcp()
 ```
 
 ## Citation

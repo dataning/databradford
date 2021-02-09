@@ -7,7 +7,7 @@
 oa(var1)
 }
 \arguments{
-\item{var1}{character}
+\item{var1}{empty}
 }
 \value{
 character
