@@ -71,15 +71,6 @@ devtools::install_github("dataning/databradford")
 ``` r
 library(databradford)
 
-# Broadband speed
-data("broadband")
-
-# Crime incident
-data("crime")
-
-# COVID-19 Vaccination
-data("vaccination")
-
 # Secondary school admission
 data("sec_school_admission")
 
@@ -89,16 +80,25 @@ data("sec_school_profile")
 # Secondary school census
 data("sec_school_census")
 
+# COVID-19 Vaccination
+data("vaccination")
+
+# Broadband speed
+data("broadband")
+
+# Property
+property <- property()
+
+# Crime incident
+data("crime")
+
 # Index of Multiple Deprivation
 data("imd")
 ```
 
-## Use spatial elements for Bradford
+## Spatial elements for Bradford mapping
 
 ``` r
-# Property
-property <- property()
-
 # MSOA multipolygon
 msoa_map <- msoa()
 

@@ -226,15 +226,6 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/dataning/databradford">databradford</a></span><span class="op">)</span>
 
-<span class="co"># Broadband speed</span>
-<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"broadband"</span><span class="op">)</span>
-
-<span class="co"># Crime incident</span>
-<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"crime"</span><span class="op">)</span>
-
-<span class="co"># COVID-19 Vaccination</span>
-<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"vaccination"</span><span class="op">)</span>
-
 <span class="co"># Secondary school admission</span>
 <span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"sec_school_admission"</span><span class="op">)</span>
 
@@ -244,17 +235,26 @@
 <span class="co"># Secondary school census</span>
 <span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"sec_school_census"</span><span class="op">)</span>
 
+<span class="co"># COVID-19 Vaccination</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"vaccination"</span><span class="op">)</span>
+
+<span class="co"># Broadband speed</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"broadband"</span><span class="op">)</span>
+
+<span class="co"># Property</span>
+<span class="va">property</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/property.html">property</a></span><span class="op">(</span><span class="op">)</span>
+
+<span class="co"># Crime incident</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"crime"</span><span class="op">)</span>
+
 <span class="co"># Index of Multiple Deprivation</span>
 <span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"imd"</span><span class="op">)</span></code></pre></div>
 </div>
-<div id="use-spatial-elements-for-bradford" class="section level2">
+<div id="spatial-elements-for-bradford-mapping" class="section level2">
 <h2 class="hasAnchor">
-<a href="#use-spatial-elements-for-bradford" class="anchor"></a>Use spatial elements for Bradford</h2>
+<a href="#spatial-elements-for-bradford-mapping" class="anchor"></a>Spatial elements for Bradford mapping</h2>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># Property</span>
-<span class="va">property</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/property.html">property</a></span><span class="op">(</span><span class="op">)</span>
-
-<span class="co"># MSOA multipolygon</span>
+<code class="sourceCode R"><span class="co"># MSOA multipolygon</span>
 <span class="va">msoa_map</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/msoa.html">msoa</a></span><span class="op">(</span><span class="op">)</span>
 
 <span class="co"># LSOA multipolygon</span>
