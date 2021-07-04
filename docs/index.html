@@ -121,7 +121,7 @@
 <td align="left">Yes</td>
 </tr>
 <tr class="even">
-<td align="left">Vaccination</td>
+<td align="left">COVID-19 Vaccination</td>
 <td align="left">2021</td>
 <td align="left">2021</td>
 <td align="left">Yes</td>
@@ -200,6 +200,14 @@
 <td align="left">100%</td>
 <td align="left">Yes</td>
 </tr>
+<tr class="even">
+<td align="left">Index of Multiple Deprivation</td>
+<td align="left">2015</td>
+<td align="left">2019</td>
+<td align="left">Yes</td>
+<td align="left">100%</td>
+<td align="left">Yes</td>
+</tr>
 </tbody>
 </table>
 <p><code><a href="https://rdrr.io/r/base/Arithmetic.html">*</a></code> Due to the size of the raw data, the package can only contain a subset of the data in this category. If you wish to use the full scale of the raw data, please contact the package developer for further data request.</p>
@@ -224,17 +232,29 @@
 <span class="co"># Crime incident</span>
 <span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"crime"</span><span class="op">)</span>
 
-<span class="co"># Property</span>
-<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"property"</span><span class="op">)</span>
+<span class="co"># COVID-19 Vaccination</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"vaccination"</span><span class="op">)</span>
 
-<span class="co"># Vaccination</span>
-<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"vaccination"</span><span class="op">)</span></code></pre></div>
+<span class="co"># Secondary school admission</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"sec_school_admission"</span><span class="op">)</span>
+
+<span class="co"># Secondary school profile</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"sec_school_profile"</span><span class="op">)</span>
+
+<span class="co"># Secondary school census</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"sec_school_census"</span><span class="op">)</span>
+
+<span class="co"># Index of Multiple Deprivation</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"imd"</span><span class="op">)</span></code></pre></div>
 </div>
 <div id="use-spatial-elements-for-bradford" class="section level2">
 <h2 class="hasAnchor">
 <a href="#use-spatial-elements-for-bradford" class="anchor"></a>Use spatial elements for Bradford</h2>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># MSOA multipolygon</span>
+<code class="sourceCode R"><span class="co"># Property</span>
+<span class="va">property</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/property.html">property</a></span><span class="op">(</span><span class="op">)</span>
+
+<span class="co"># MSOA multipolygon</span>
 <span class="va">msoa_map</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/msoa.html">msoa</a></span><span class="op">(</span><span class="op">)</span>
 
 <span class="co"># LSOA multipolygon</span>

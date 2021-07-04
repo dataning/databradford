@@ -34,21 +34,22 @@ datasets for Bradford city.
 
 ## Roadmap
 
-| Datasets                   | Starting | Ending | Geocoded | Raw_data_contained | Released |
-|:---------------------------|:---------|:-------|:---------|:-------------------|:---------|
-| Secondary school profile   | 2014     | 2020   | Yes      | 100%               | Yes      |
-| Secondary school census    | 2014     | 2020   | Yes      | 100%               | Yes      |
-| Secondary school admission | 2014     | 2020   | Yes      | 100%               | Yes      |
-| Vaccination                | 2021     | 2021   | Yes      | 90%                | Yes      |
-| Broadband speed            | 2018     | 2020   | Yes      | 100%               | Yes      |
-| Property price paid        | 1995     | 2021   | Yes      | 100%               | Yes      |
-| Crime incidents\*          | 2011     | 2020   | Yes      | 6.9%               | Yes      |
-| Local business\*           | 2010     | 2020   | Yes      | 20%                | No       |
-| Air quality                | 2015     | 2020   | No       | 100%               | No       |
-| LSOA map                   | 2011     | 2020   | Yes      | 100%               | Yes      |
-| MSOA map                   | 2011     | 2020   | Yes      | 100%               | Yes      |
-| OA map                     | 2011     | 2020   | Yes      | 100%               | Yes      |
-| Postcode map               | 2011     | 2020   | Yes      | 100%               | Yes      |
+| Datasets                      | Starting | Ending | Geocoded | Raw_data_contained | Released |
+|:------------------------------|:---------|:-------|:---------|:-------------------|:---------|
+| Secondary school profile      | 2014     | 2020   | Yes      | 100%               | Yes      |
+| Secondary school census       | 2014     | 2020   | Yes      | 100%               | Yes      |
+| Secondary school admission    | 2014     | 2020   | Yes      | 100%               | Yes      |
+| COVID-19 Vaccination          | 2021     | 2021   | Yes      | 90%                | Yes      |
+| Broadband speed               | 2018     | 2020   | Yes      | 100%               | Yes      |
+| Property price paid           | 1995     | 2021   | Yes      | 100%               | Yes      |
+| Crime incidents\*             | 2011     | 2020   | Yes      | 6.9%               | Yes      |
+| Local business\*              | 2010     | 2020   | Yes      | 20%                | No       |
+| Air quality                   | 2015     | 2020   | No       | 100%               | No       |
+| LSOA map                      | 2011     | 2020   | Yes      | 100%               | Yes      |
+| MSOA map                      | 2011     | 2020   | Yes      | 100%               | Yes      |
+| OA map                        | 2011     | 2020   | Yes      | 100%               | Yes      |
+| Postcode map                  | 2011     | 2020   | Yes      | 100%               | Yes      |
+| Index of Multiple Deprivation | 2015     | 2019   | Yes      | 100%               | Yes      |
 
 `*` Due to the size of the raw data, the package can only contain a
 subset of the data in this category. If you wish to use the full scale
@@ -76,16 +77,28 @@ data("broadband")
 # Crime incident
 data("crime")
 
-# Property
-data("property")
-
-# Vaccination
+# COVID-19 Vaccination
 data("vaccination")
+
+# Secondary school admission
+data("sec_school_admission")
+
+# Secondary school profile
+data("sec_school_profile")
+
+# Secondary school census
+data("sec_school_census")
+
+# Index of Multiple Deprivation
+data("imd")
 ```
 
 ## Use spatial elements for Bradford
 
 ``` r
+# Property
+property <- property()
+
 # MSOA multipolygon
 msoa_map <- msoa()
 
