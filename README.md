@@ -34,18 +34,19 @@ datasets for Bradford city.
 
 ## Roadmap
 
-| Datasets                   | Starting | Ending | Geocoded | Raw\_data\_contained | Released |
-|:---------------------------|:---------|:-------|:---------|:---------------------|:---------|
-| Secondary school admission | 2014     | 2020   | Yes      | 100%                 | No       |
-| Broadband speed            | 2018     | 2020   | Yes      | 100%                 | Yes      |
-| Property transaction       | 1995     | 2020   | Yes      | 100%                 | No       |
-| Crime incidents\*          | 2011     | 2020   | Yes      | 6.9%                 | Yes      |
-| Local business\*           | 2010     | 2020   | Yes      | 20%                  | No       |
-| Air quality                | 2015     | 2020   | No       | 100%                 | No       |
-| LSOA map                   | 2011     | 2020   | Yes      | 100%                 | Yes      |
-| MSOA map                   | 2011     | 2020   | Yes      | 100%                 | Yes      |
-| OA map                     | 2011     | 2020   | Yes      | 100%                 | Yes      |
-| Postcode map               | 2011     | 2020   | Yes      | 100%                 | Yes      |
+| Datasets                   | Starting | Ending | Geocoded | Raw_data_contained | Released |
+|:---------------------------|:---------|:-------|:---------|:-------------------|:---------|
+| Secondary school admission | 2014     | 2020   | Yes      | 100%               | No       |
+| Vaccination                | 2021     | 2021   | Yes      | 90%                | Yes      |
+| Broadband speed            | 2018     | 2020   | Yes      | 100%               | Yes      |
+| Property transaction       | 1995     | 2020   | Yes      | 100%               | No       |
+| Crime incidents\*          | 2011     | 2020   | Yes      | 6.9%               | Yes      |
+| Local business\*           | 2010     | 2020   | Yes      | 20%                | No       |
+| Air quality                | 2015     | 2020   | No       | 100%               | No       |
+| LSOA map                   | 2011     | 2020   | Yes      | 100%               | Yes      |
+| MSOA map                   | 2011     | 2020   | Yes      | 100%               | Yes      |
+| OA map                     | 2011     | 2020   | Yes      | 100%               | Yes      |
+| Postcode map               | 2011     | 2020   | Yes      | 100%               | Yes      |
 
 `*` Due to the size of the raw data, the package can only contain a
 subset of the data in this category. If you wish to use the full scale
@@ -72,6 +73,9 @@ data("broadband")
 
 # Crime incident
 data("crime")
+
+# Vaccination
+data("vaccination")
 ```
 
 ## Use spatial elements for Bradford

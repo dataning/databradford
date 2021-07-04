@@ -46,19 +46,19 @@ The goal of databradford is to provide a quick way to explore open datasets for 
 
 ```{r echo=FALSE}
 library(knitr)
-df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
+df <- data.frame("Datasets" = c("Secondary school admission", "Vaccination", "Broadband speed", 
                                 "Property transaction",
                                 "Crime incidents*", "Local business*", "Air quality", 
                                 "LSOA map", "MSOA map", "OA map", "Postcode map"),
-                 "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015", "2011",
+                 "Starting" = c("2014", "2021", "2018", "1995", "2011", "2010", "2015", "2011",
                                 "2011", "2011", "2011"), 
-                 "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020", "2020",
+                 "Ending" = c("2020", "2021", "2020", "2020", "2020", "2020", "2020", "2020",
                               "2020", "2020", "2020"),
-                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No", "Yes", 
+                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "No", "Yes", 
                                "Yes", "Yes", "Yes"),
-                 "Raw_data_contained" = c("100%", "100%", "100%", "6.9%", "20%", "100%", "100%",
+                 "Raw_data_contained" = c("100%", "90%", "100%", "100%", "6.9%", "20%", "100%", "100%",
                                           "100%", "100%", "100%"), 
-                 "Released" = c("No", "Yes", "No", "Yes", "No", "No", "Yes", "Yes", "Yes", "Yes")
+                 "Released" = c("No", "Yes", "Yes", "No", "Yes", "No", "No", "Yes", "Yes", "Yes", "Yes")
 )
 kable(df)
 ```
@@ -86,7 +86,8 @@ data("broadband")
 # Crime incident
 data("crime")
 
-
+# Vaccination
+data("vaccination")
 ```
 
 ## Use spatial elements for Bradford
