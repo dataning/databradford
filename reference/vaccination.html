@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • databradford</title>
+<title>Vaccination in Bradford — vaccination • databradford</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,7 +46,8 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="Vaccination in Bradford — vaccination" />
+<meta property="og:description" content="A dataset containing first dose vaccination data for Bradford city" />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -66,7 +67,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -113,84 +114,51 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>Vaccination in Bradford</h1>
+    <small class="dont-index">Source: <a href='https://github.com/dataning/databradford/blob/master/R/vaccination.R'><code>R/vaccination.R</code></a></small>
+    <div class="hidden name"><code>vaccination.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>A dataset containing first dose vaccination data for Bradford city</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='va'>vaccination</span></pre>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-all-functions" class="hasAnchor"><a href="#section-all-functions" class="anchor"></a>All functions</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="broadband.html">broadband</a></code> </p>
-        </td>
-        <td><p>Broadband speed data in Bradford</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="crime.html">crime</a></code> </p>
-        </td>
-        <td><p>Crime incidents in Bradford</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="lsoa.html">lsoa()</a></code> </p>
-        </td>
-        <td><p>Load LSOA data</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="msoa.html">msoa()</a></code> </p>
-        </td>
-        <td><p>Load MSOA data</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="oa.html">oa()</a></code> </p>
-        </td>
-        <td><p>Load OA data</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="pc.html">pc()</a></code> </p>
-        </td>
-        <td><p>Load Postcode data - multipolygon</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="pcp.html">pcp()</a></code> </p>
-        </td>
-        <td><p>Load Postcode data - point polygon</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="vaccination.html">vaccination</a></code> </p>
-        </td>
-        <td><p>Vaccination in Bradford</p></td>
-      </tr>
-    </tbody>
-    </table>
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 30,000 rows and 10 variables:</p><dl>
+<dt>region_code_administrative</dt><dd><p>NHS Region of residence codes</p></dd>
+<dt>region_name_administrative</dt><dd><p>NHS Region of residence names</p></dd>
+<dt>ltla_code</dt><dd><p>Lower Tier Local Authority codes</p></dd>
+<dt>ltla_name</dt><dd><p>Lower Tier Local Authority names</p></dd>
+<dt>msoa_code</dt><dd><p>Middle-Layer Super Output Areas codes</p></dd>
+<dt>msoa_name</dt><dd><p>Middle-Layer Super Output Areas names</p></dd>
+<dt>vac_25_29</dt><dd><p>1st dose - Age bands</p></dd>
+<dt>vac_30_34</dt><dd><p>1st dose - Age bands</p></dd>
+<dt>vac_35_39</dt><dd><p>1st dose - Age bands</p></dd>
+<dt>vac_40_44</dt><dd><p>1st dose - Age bands</p></dd>
+<dt>vac_45_49</dt><dd><p>1st dose - Age bands</p></dd>
+<dt>vac_50_54</dt><dd><p>1st dose - Age bands</p></dd>
+<dt>vac_55_59</dt><dd><p>1st dose - Age bands</p></dd>
+<dt>vac_60_64</dt><dd><p>1st dose - Age bands</p></dd>
+<dt>vac_65_69</dt><dd><p>1st dose - Age bands</p></dd>
+<dt>vac_70_74</dt><dd><p>1st dose - Age bands</p></dd>
+<dt>vac_75_79</dt><dd><p>1st dose - Age bands</p></dd>
+<dt>vac_80</dt><dd><p>1st dose - Age bands</p></dd>
+<dt>source</dt><dd><p>week name</p></dd>
+<dt>vac_1st_dose</dt><dd><p>1st dose</p></dd>
+
+</dl>
+
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p><a href='https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-vaccinations/'>https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-vaccinations/</a></p>
+
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
