@@ -36,10 +36,12 @@ datasets for Bradford city.
 
 | Datasets                   | Starting | Ending | Geocoded | Raw_data_contained | Released |
 |:---------------------------|:---------|:-------|:---------|:-------------------|:---------|
-| Secondary school admission | 2014     | 2020   | Yes      | 100%               | No       |
+| Secondary school profile   | 2014     | 2020   | Yes      | 100%               | Yes      |
+| Secondary school census    | 2014     | 2020   | Yes      | 100%               | Yes      |
+| Secondary school admission | 2014     | 2020   | Yes      | 100%               | Yes      |
 | Vaccination                | 2021     | 2021   | Yes      | 90%                | Yes      |
 | Broadband speed            | 2018     | 2020   | Yes      | 100%               | Yes      |
-| Property transaction       | 1995     | 2020   | Yes      | 100%               | No       |
+| Property price paid        | 1995     | 2021   | Yes      | 100%               | Yes      |
 | Crime incidents\*          | 2011     | 2020   | Yes      | 6.9%               | Yes      |
 | Local business\*           | 2010     | 2020   | Yes      | 20%                | No       |
 | Air quality                | 2015     | 2020   | No       | 100%               | No       |
@@ -73,6 +75,9 @@ data("broadband")
 
 # Crime incident
 data("crime")
+
+# Property
+data("property")
 
 # Vaccination
 data("vaccination")

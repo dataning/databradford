@@ -5,7 +5,7 @@
 \alias{vaccination}
 \title{Vaccination in Bradford}
 \format{
-A data frame with 30,000 rows and 10 variables:
+A data frame with 1,159 rows and 20 variables:
 \describe{
 \item{region_code_administrative}{NHS Region of residence codes}
 \item{region_name_administrative}{NHS Region of residence names}
